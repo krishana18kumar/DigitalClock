@@ -1,5 +1,3 @@
-const container = document.querySelector(".container");
-const text = document.querySelector(".text");
 const secHand = document.querySelector(".pointer-container");
 let checkBox = document.querySelector("#checkBox");
 
@@ -14,22 +12,6 @@ checkBox.addEventListener("click", function () {
   let body = document.querySelector("body");
   body.classList.toggle("light");
 });
-
-// BreatheAnimation = () => {
-//   text.innerHTML = "Breathe In";
-//   container.className = "container grow";
-
-//   setTimeout(() => {
-//     text.innerText = "Hold";
-
-//     setTimeout(() => {
-//       text.innerText = "Breathe Out";
-//       container.className = "container shrink";
-//     }, holdTime);
-//   }, breatheTime);
-// };
-
-// setInterval(BreatheAnimation, totalTime);
 
 const deg = 6;
 setInterval(() => {
@@ -51,10 +33,7 @@ setInterval(() => {
   var month = d.getMonth() + 1;
   var year = d.getFullYear();
 
-  // hr.style.transform = `rotateZ(${hh + mm / 12}deg)`;
-  // mn.style.transform = `rotateZ(${mm}deg)`;
   secHand.style.transform = `rotate(${sc * 6}deg)`;
-  // secHand.style.
 
   dateE1.innerHTML = date + "/" + month + "/" + year;
   dayE1.innerHTML = day;
