@@ -1,0 +1,19 @@
+{
+  "name": "digitalclock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishana18kumar/DigitalClock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishana18kumar/DigitalClock/issues"
+  },
+  "homepage": "https://github.com/krishana18kumar/DigitalClock#readme"
+}
